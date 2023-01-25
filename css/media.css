@@ -17,16 +17,35 @@
         justify-items: center;
     }
 
-header .all-sides .left__side a img{
+    header .all-sides .left__side a img{
+        height: 1.8rem;
+    }
+
+    .banner{
+        height: 100vh;
+    }
+
+    .un-banner div{
+    grid-template-columns: repeat(4,auto);
+    }
+
+.un-banner div img{ 
     height: 1.8rem;
 }
 
-    .banner{
-        height: 70vh;
-    }
 
+.section-one .part1 span ,.section-two .part1 span,.section-three .part1 span{
+    font-size: 4rem;
+}
 
+.section-one .part1 .p1 , .section-two .part1 .p1 , .section-three .part1 .p1{
+    font-size: 2rem;
+}
 
+.section-one .part1 .p2 , .section-two .part1 .p2 , .section-three .part1 .p2{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
    .banner .layout .content__banner{
     margin-top: 25%;
     margin-left: 0;
@@ -69,5 +88,24 @@ header .all-sides .left__side a img{
     width: 3.8rem;
     height: 3.8rem;
 }
+
+.section-one , .section-two , .section-three{
+    grid-template-columns: 1fr;
+}
+
+.section-one .part2 , .section-three .part2{
+    grid-row: 2/1;
+}
+
+.top-section-one h6{
+    text-align: center;
+}
+
+
+.top-section-one p{
+    font-size: 3rem;
+    text-align: center;
+}
+
 
 }
