@@ -1,5 +1,6 @@
 @media (min-width:320px) and (max-width:767px){
-
+     
+    
     header{
         background-color:rgba(128, 128, 128, 0.14);
     }
@@ -30,7 +31,7 @@
     }
 
 .un-banner div img{ 
-    height: 1.8rem;
+    height: 1.2rem;
 }
 
 
@@ -78,6 +79,17 @@
 
 }
 
+.section-five{
+    padding: 10rem 0 5rem  0;
+
+}
+
+.section-five .section__top p{
+    font-size: 3rem;
+}
+.section-five .section__bottom .gallary i{
+    font-size: 2rem;
+}
 .banner .layout .content__banner .custmer{
     margin-top: 5rem;
     grid-template-columns: repeat(6,30px);
@@ -101,10 +113,127 @@
     text-align: center;
 }
 
+.section-four{
+    grid-template-columns:1fr;
+
+}
+
+.section-five .section__bottom{
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows:repeat(4,auto) ;
+}
 
 .top-section-one p{
     font-size: 3rem;
     text-align: center;
+}
+
+.section-six{
+    grid-template-columns: 1fr;
+    width: 90%;
+
+}
+
+.padge{
+    padding: 0.6rem 9rem;
+    top: 2rem;
+    font-size: 1.7rem;
+    margin-left: 50rem;
+
+}
+.section-six div .bottom__section button{ 
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+
+}
+
+.section-six div .top__section span{
+    font-size: 4rem;
+}
+
+.section-six div .center__section ul li{
+    font-size: 1.3rem;
+    margin-left: 4rem;
+
+}
+
+.section-eight .section__bottom{
+    grid-template-columns: auto;
+
+}
+
+.section-eight .section__top p{
+    font-size: 3rem;
+}
+
+.section-eight .section__bottom div h3{
+    margin-bottom: 3rem;
+}
+
+.section-eight .section__bottom div p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+
+
+.info{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto;
+    height: auto;
+    width: 90%;
+}
+
+.info .info__left{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+    padding: 1rem 2.5rem;
+
+}
+
+.info .info__left .left__bottom .content3 select{
+    width: 80%;
+    margin-top: 1rem;
+    height: 3.5rem;
+}
+
+.info .info__left .left__bottom .content4{
+    padding-bottom: 2rem;
+}
+
+.info .info__left .left__bottom .left__contact input{
+    padding:1rem;
+    width: 80%;
+}
+
+.info .info__left .left__bottom .content4 button{
+    width: 80%;
+}
+.info .info__left .left__top h3{
+    font-size: 2rem;
+    padding-top: 2rem;
+
+}
+
+.info .info__left .left__top p{
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+.info .info__left .left__bottom{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: 1fr;
+}
+
+
+
+footer .all-content {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5,1fr);
 }
 
 
