@@ -2,12 +2,25 @@
      
     
     header{
-        background-color:rgba(128, 128, 128, 0.14);
+        background-color:rgba(23, 22, 22, 0.941);
+        position: fixed;
+        z-index: 10000000;
     }
 
     header .all-sides{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
 
+    }
+
+    header .all-sides .media{
+        display: grid;
+        justify-items: end;
+
+    }
+
+    header .all-sides .media i{
+        color: var(--fifthColor);
+        font-size: 1.5rem;
     }
 
     header .all-sides .right__side{
@@ -19,7 +32,7 @@
     }
 
     header .all-sides .left__side a img{
-        height: 1.8rem;
+        height: 1.5rem;
     }
 
     .banner{
@@ -85,8 +98,13 @@
 }
 
 .section-five .section__top p{
-    font-size: 3rem;
+    font-size: 2rem;
 }
+
+.un-section-five .section__top p {
+font-size: 3rem;
+}
+
 .section-five .section__bottom .gallary i{
     font-size: 2rem;
 }
@@ -141,11 +159,36 @@
     margin-left: 50rem;
 
 }
+
+.section-seven .section__bottom{
+    grid-template-columns:auto;
+
+}
+
+.section-seven .section__bottom div {
+    margin-bottom: 5rem;
+}
+
+
+.media{
+    display: block;
+}
+
+.section-seven .section__bottom div p{
+    font-size: 1.5rem;
+}
+
+    
 .section-six div .bottom__section button{ 
     padding: 1rem 2rem;
     border-radius: 1rem;
     font-size: 1.6rem;
 
+}
+
+.un-section{
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 .section-six div .top__section span{
@@ -164,7 +207,7 @@
 }
 
 .section-eight .section__top p{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .section-eight .section__bottom div h3{

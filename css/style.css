@@ -1,5 +1,6 @@
 :root{
     font-size: 10px;
+    scroll-behavior: smooth;
     --firstColor:#fdf2e9;
     --secondColor:#e67e22;
     --thirdColor:#cf711f;
@@ -45,9 +46,12 @@
 }
 
 header{
-    position: absolute;
     width: 100%;
     padding: var(--thirdPadding);
+    background-color:rgba(23, 22, 22, 0.941);
+    position: fixed;
+    z-index: 10000000;
+
 }
 
 header .all-sides{
@@ -105,6 +109,10 @@ header .all-sides .right__side ul .list a:hover{
     color: var(--thirdColor);
 }
 
+
+.media{
+display: none;
+}
 .banner{
     background-image: url("../images/banner.jpg");
     background-size: cover;
@@ -718,8 +726,19 @@ overflow: hidden;
     background-color: var(--secondColor);
     color: var(--firstColor);
     font-size: 2rem;
+    cursor: pointer;
     border: none;
     outline: none;
+    transition: all 0.3s ease;
+
+}
+
+.section-six div .bottom__section button:hover{
+    background-color: var(--thirdColor); 
+}
+
+.section-six .left__section .bottom__section button{ 
+    margin-top: 4.5rem;
 }
 
 
@@ -737,6 +756,19 @@ overflow: hidden;
     margin-right: 3rem;
     font-size: 2rem;
     color: var(--secondColor);
+}
+
+.un-section-four{
+    text-align: center;
+    margin-top: 7rem;
+
+}
+
+.un-section-four a{
+    color: #cf711f;
+    text-decoration: none;
+    border-bottom: 1px solid var(--secondColor);
+    font-size: 1.8rem;
 }
 
 .section-six div .top__section h3{
@@ -757,6 +789,54 @@ overflow: hidden;
 .section-six div .top__section p{
     font-size: 1.6rem;
 }
+
+.un-section{
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 1.6rem;
+
+}
+
+.section-seven{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.section-seven .section__bottom{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    width: 80%;
+    margin: auto;
+}
+
+.section-seven .section__bottom div .icon {
+    width: 7rem;
+    height:7rem;
+    border-radius: 50%;
+    background-color: var(--seventeenColor);
+    text-align: center;
+}
+
+.section-seven .section__bottom div .icon i{
+    color: var(--secondColor);
+    font-size: 3rem;
+    margin-top: 30%;
+}
+
+.section-seven .section__bottom div h3{
+    font-size: 2.4rem;
+    margin-top: 3rem;
+    color: var(--bColor);
+}
+
+.section-seven .section__bottom div p{
+    font-size: 1.8rem;
+    line-height: 2;
+    margin-top: 1rem;
+
+}
+
+
 .section-eight{
     background-color: var(--seventeenColor);
     margin-top: 5rem;
